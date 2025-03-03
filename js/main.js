@@ -40,7 +40,7 @@ class Circle {
     context.textAlign = "center";
     context.textBaseline = "middle";
     context.font = "bold 20px cursive";
-    context.fillStyle = "white";
+    context.fillStyle = "White";
     context.fillText(this.text, this.posX, this.posY);
     context.closePath();
   }
